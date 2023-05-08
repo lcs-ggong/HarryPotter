@@ -17,7 +17,7 @@ struct ListView: View {
                     .resizable()
                     .frame(width: 85, height: 120)
                 
-                VStack{
+                VStack(alignment: .leading){
                     
                     
                     Text("Hermione")
@@ -25,10 +25,10 @@ struct ListView: View {
                     
                     Text("Gryffindor")
                     
-                  
+                    
                 }
             }
-               
+            
             
             
             
@@ -37,20 +37,25 @@ struct ListView: View {
                     .resizable()
                     .frame(width: 85, height: 120)
                 
-                VStack{
+                VStack(alignment: .leading){
                     Text("Harry")
                         .font(Font.system(size:23, weight: .bold))
+                        .border(.red)
                     
                     Text("Gryffindor")
+                        .border(.green)
+                    
                 }
+                .border(.blue)
             }
+            
             
             HStack {
                 Image("ron")
                     .resizable()
                     .frame(width: 85, height: 120)
                 
-                VStack{
+                VStack(alignment: .leading){
                     Text("Ron")
                         .font(Font.system(size:23, weight: .bold))
                     
@@ -66,7 +71,7 @@ struct ListView: View {
                     .frame(width: 85, height: 120)
                 
                 
-                VStack{
+                VStack(alignment: .leading){
                     Text("draco")
                         .font(Font.system(size:23, weight: .bold))
                     
@@ -81,7 +86,7 @@ struct ListView: View {
                     .frame(width: 85, height: 120)
                 
                 
-                VStack{
+                VStack(alignment: .leading){
                     Text("mcgonagall ")
                         .font(Font.system(size:23, weight: .bold))
                     
