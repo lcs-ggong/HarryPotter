@@ -11,14 +11,16 @@ struct Character {
     var id: String
     var name: String
     var house: String
+    var image: String
 }
 
 let exampleCharacter = Character(id: "H",
                                  name: "Hermione",
-                                 house: "Gryffindor")
+                                 house: "Gryffindor",
+                                 image: "hermione")
 
-let exampleCharacter2 = Character(id: "HA", name: "Harry", house: "Gryffindor")
+let exampleCharacter2 = Character(id: "HA", name: "Harry", house: "Gryffindor", image: "harry")
 
-let exampleCharacter3 = Character(id: "R", name: "Ron", house: "Gryffindor")
+let exampleCharacter3 = Character(id: "R", name: "Ron", house: "Gryffindor", image: "ron")
 
 
